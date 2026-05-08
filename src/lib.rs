@@ -3,8 +3,9 @@
 // A simple Rust crate for a CRUD application.
 pub mod handlers;
 pub mod models;
+pub mod user;
 
-// Initializes the database connection pool.
+/// Initializes the database connection pool.
 pub async fn init_db() -> sqlx::PgPool {
     let database_url: String = std::env::var("DATABASE_URL").expect("DATABASE_URL must be set");
     sqlx::PgPoolOptions::new()
