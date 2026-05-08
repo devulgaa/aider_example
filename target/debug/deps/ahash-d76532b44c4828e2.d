@@ -1,0 +1,12 @@
+/home/devulgaa/Projects/aider/target/debug/deps/ahash-d76532b44c4828e2.d: /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/lib.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/convert.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/fallback_hash.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/hash_map.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/hash_set.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/operations.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/random_state.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/specialize.rs
+
+/home/devulgaa/Projects/aider/target/debug/deps/libahash-d76532b44c4828e2.rmeta: /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/lib.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/convert.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/fallback_hash.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/hash_map.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/hash_set.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/operations.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/random_state.rs /home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/specialize.rs
+
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/lib.rs:
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/convert.rs:
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/fallback_hash.rs:
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/hash_map.rs:
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/hash_set.rs:
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/operations.rs:
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/random_state.rs:
+/home/devulgaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ahash-0.7.8/src/specialize.rs:
