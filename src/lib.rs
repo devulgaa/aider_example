@@ -1,10 +1,10 @@
 #![warn(missing_docs)]
 
-/// A simple Rust crate for a CRUD application.
+// A simple Rust crate for a CRUD application.
 pub mod handlers;
 pub mod models;
 
-/// Initializes the database connection pool.
+// Initializes the database connection pool.
 pub async fn init_db() -> sqlx::PgPool {
     let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL must be set");
     sqlx::PgPoolOptions::new()
@@ -16,14 +16,12 @@ pub async fn init_db() -> sqlx::PgPool {
 
 /// Starts the HTTP server.
 pub async fn start_server() {
-    use hyper::{Body, Request, Response, Server};
     use hyper::service::{make_service_fn, service_fn};
+    use hyper::{Body, Request, Response, Server};
 
     let addr = ([127, 0, 0, 1], 3000).into();
 
-    let make_svc = make_service_fn(|_conn| {
-        async { Ok::<_, hyper::Error>(service_fn(handler)) }
-    });
+    let make_svc = make_service_fn(|_conn| async { Ok::<_, hyper::Error>(service_fn(handler)) });
 
     let server = Server::bind(&addr).serve(make_svc);
 
